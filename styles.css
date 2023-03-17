@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
 *,
 ::before,
 ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "roboto";
 }
 
 #random-info,
@@ -11,12 +14,11 @@ footer {
     text-align: center;
 }
 
+
+/* ///// Header ///// */
+
 .dark {
     background-color: #1f2937;
-}
-
-#quote {
-    background-color: #e5e7eb;
 }
 
 .header-text {
@@ -30,16 +32,41 @@ footer {
     color: #e5e7eb;
 }
 
+
+/* ///// Hero ///// */
+
 #hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
 
+.sign-up {
+    border: none;
+    border-radius: 6px;
+    padding: 4px 22px;
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+
+/* ///// Random Info ///// */
+
 #info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+}
+
+.cap {
+    color: #818892;
+}
+
+
+/* ///// Quote ///// */
+
+#quote-block {
+    background-color: #e5e7eb;
 }
 
 #quote-text {
@@ -49,19 +76,19 @@ footer {
     color: #1f2937;
 }
 
-.cap {
-    color: #818892;
-}
-
 .quote {
+    font-weight: bold;
+    font-style: initial;
     color: #1f2937;
 }
 
-#action-container,
-.sign-up {
+
+/* ///// Call to action ///// */
+
+#action-container {
     background-color: #3882f6;
 }
 
-.sign-up {
-    color: #f9faf8;
+.two {
+    border: 1.8px white solid;
 }
