@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#random-info,
+footer {
+    text-align: center;
+}
+
+.dark {
+    background-color: #1f2937;
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.standard-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.cap {
+    color: #818892;
+}
+
+.quote {
+    color: #1f2937;
+}
+
+#action-container,
+.sign-up {
+    background-color: #3882f6;
+}
+
+.sign-up {
+    color: #f9faf8;
+}
