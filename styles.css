@@ -9,6 +9,12 @@
     font-family: "roboto";
 }
 
+header,
+section,
+footer {
+    padding-inline: 15vw;
+}
+
 #random-info,
 footer {
     text-align: center;
@@ -32,6 +38,24 @@ footer {
     color: #e5e7eb;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+ul {
+    display: flex;
+    column-gap: 25px;
+    list-style: none;
+}
 
 /* ///// Hero ///// */
 
@@ -44,9 +68,37 @@ footer {
 .sign-up {
     border: none;
     border-radius: 6px;
-    padding: 4px 22px;
+    padding: 6px 30px;
     color: #f9faf8;
     background-color: #3882f6;
+    align-self: flex-start;
+}
+
+#hero {
+    padding-block: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex-grow: 1;
+    flex-basis: 45%;
+}
+
+#hero-placeholder {
+    background-color: #6d747d;
+    min-width: 45%;
+    min-height: 300px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 
