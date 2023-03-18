@@ -175,12 +175,12 @@ figure {
     background-color: #3882f6;
     border-radius: 10px;
     min-width: 100%;
-    padding: 40px 100px;
+    padding: 40px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .two {
