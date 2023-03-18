@@ -152,7 +152,11 @@ figure {
 
 #quote-block {
     background-color: #e5e7eb;
-    padding-block: 100px;
+    padding-block: 110px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    white-space: pre-line;
 }
 
 #quote-text {
@@ -160,12 +164,16 @@ figure {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .quote {
     font-weight: bold;
     font-style: initial;
     color: #1f2937;
+    padding-inline-end: 20px;
 }
 
 
