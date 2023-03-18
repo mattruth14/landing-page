@@ -15,9 +15,9 @@ footer {
     padding-inline: 15vw;
 }
 
-#random-info,
 footer {
     text-align: center;
+    padding-block: 40px;
 }
 
 
@@ -49,6 +49,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav li {
+    text-align: center;
 }
 
 ul {
@@ -94,11 +100,12 @@ ul {
 #hero-placeholder {
     background-color: #6d747d;
     min-width: 45%;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    /* aspect-ratio: 16 / 9; */
 }
 
 
@@ -108,10 +115,36 @@ ul {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    padding-block-end: 50px;
 }
 
 .cap {
     color: #818892;
+    text-align: justify;
+    text-align-last: center;
+    padding-block-start: 8px;
+}
+
+#random-info {
+    padding-block: 50px 100px;
+    text-align: center;
+}
+
+#random-placeholders {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+figure {
+    flex-basis: 170px;
+}
+
+.info-placeholder {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    min-height: 170px;
 }
 
 
@@ -119,6 +152,7 @@ ul {
 
 #quote-block {
     background-color: #e5e7eb;
+    padding-block: 100px;
 }
 
 #quote-text {
@@ -139,8 +173,13 @@ ul {
 
 #action-container {
     background-color: #3882f6;
+    padding: 50px 150px;
 }
 
 .two {
     border: 1.8px white solid;
+}
+
+#action-call {
+    padding-block: 70px;
 }
